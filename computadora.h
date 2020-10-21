@@ -36,7 +36,7 @@ public:
     return out;
   }
 
-    friend istream& operator>>(istream &in, Computadora &c) {
+  friend istream& operator>>(istream &in, Computadora &c) {
     cout << "Sistema Operativo: ";
     getline(cin, c.sisOp);
 
@@ -46,6 +46,8 @@ public:
     cout << "Procesador: ";
     cin >> c.procesador;
 
+    fflush(stdin);
+    
     cout << "RAM: ";
     cin >> c.memoriaRam;
     cout << endl;
