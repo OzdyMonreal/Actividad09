@@ -44,7 +44,7 @@ public:
     getline(cin, c.modelo);
 
     cout << "Procesador: ";
-    cin >> c.procesador;
+    getline(cin, c.procesador);
 
     fflush(stdin);
     

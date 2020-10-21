@@ -17,9 +17,9 @@ int main() {
 
   Laboratorio lab;
 
-  lab.agregarFinal(comp1);
-  lab.agregarFinal(comp2);
-  lab.agregarFinal(comp3);
+  lab << comp1;
+  lab << comp2;
+  lab << comp3;
 
   lab.mostrar();
   return 0;
