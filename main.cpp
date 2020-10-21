@@ -17,9 +17,7 @@ int main() {
 
   Laboratorio lab;
 
-  lab << comp1;
-  lab << comp2;
-  lab << comp3;
+  lab << comp1 << comp2 << comp3;
 
   lab.mostrar();
   return 0;
