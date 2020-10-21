@@ -51,6 +51,8 @@ public:
     cout << "RAM: ";
     cin >> c.memoriaRam;
     cout << endl;
+    fflush(stdin);
+    
     return in;
   }
 };
